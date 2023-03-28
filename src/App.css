@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background: url(./img/cep\ \(2\).jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 60px;
+  color: aliceblue;
+}
+
+.search{
+  display: flex;
+}
+
+
+.input{
+  margin-right: 5px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+
+.btnSearch{
+  background-color:#128ad4 ;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.titleTwo{
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.span{
+  margin-bottom: 15px;
+  background-color: #111111;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 10px;
+}
